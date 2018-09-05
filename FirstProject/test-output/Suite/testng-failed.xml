@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MyLearning.Listener"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="AmazonWebsiteTest2(failed)">
+    <classes>
+      <class name="MyLearning.WindowHandles">
+        <methods>
+          <include name="InvokeBrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MyLearning.WindowHandles -->
+      <class name="MyLearning.CapitalEnterTest">
+        <methods>
+          <include name="EnterinCapital"/>
+          <include name="InvokeBrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MyLearning.CapitalEnterTest -->
+      <class name="MyLearning.AmazonHomeTest">
+        <methods>
+          <include name="InvokeBrowser"/>
+          <include name="Terminate"/>
+        </methods>
+      </class> <!-- MyLearning.AmazonHomeTest -->
+    </classes>
+  </test> <!-- AmazonWebsiteTest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

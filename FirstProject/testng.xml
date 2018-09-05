@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="MyLearning.Listener" />
+		<listener class-name="resources.ExtentReporterNG" />
+	</listeners>
+	
+	
+
+	
+	<test thread-count="5" name="SeleniumRecap">
+		<classes>
+			<class name="MyLearning.WindowHandles" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="SeleniumRecapOne">
+		<classes>
+		<class name="MyLearning.ExpediaTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="SeleniumRecapTwo">
+		<classes>
+		<class name="MyLearning.TablesTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test thread-count="5" name="SeleniumRecapThree">
+		<classes>
+		<class name="MyLearning.EbayLinksTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	
+	<test thread-count="5" name="AmazonWebsiteOne">
+		<classes>
+			
+			<class name="MyLearning.LoginTest" />
+			
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="AmazonWebsiteTwo">
+		<classes>
+			
+			
+			<class name="MyLearning.CapitalEnterTest" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="AmazonWebsiteThree">
+		<classes>
+			
+			
+			<class name="MyLearning.AmazonHomeTest" />
+		</classes>
+	</test>
+	
+
+
+</suite> <!-- Suite -->
